@@ -249,7 +249,7 @@ header nav .nav-sections ul > li > ul > li {
     position: relative;
   }
 
-  header nav .nav-sections > ul > li[aria-expanded="true"] > ul {
+  header nav .nav-sections  > ul > li[aria-expanded="true"] > ul {
     display: block;
     position: absolute;
     left: -1em;
@@ -261,7 +261,7 @@ header nav .nav-sections ul > li > ul > li {
     border-radius: 8px;
 
     /* border-color: 0px 3px 11.5px -3.5px rgba(50,50,93,25%); */
-    columns: 2;
+    columns: 1;
   }
 
   header nav .nav-sections > ul > li[aria-expanded="true"] > ul > li > a {
@@ -289,7 +289,7 @@ header nav .nav-sections ul > li > ul > li {
     
   }
 
-  header nav .nav-sections > ul > li > ul > li {
+  header nav .nav-sections  > ul > li > ul > li {
     padding: 8px 0;
   }
 }
@@ -306,12 +306,43 @@ header nav .nav-tools .form {
   display: none;
 }
 
+
+
+header nav .nav-tools form .form-language-001 select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 250px;
+  border-style: dashed;
+  border-color: blue;
+  font-size: 14px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+header nav .nav-tools form .form-language-002 select {
+  width: 200px; 
+  height: 30px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 18px;
+  font-size: 14px;
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+}
+
+
+
 header nav .nav-tools form select {
   cursor: pointer;
   display: inline-block;
   position: relative;
   font-size: var(--body-font-size-xxs);
-  color: var(--highlight-background-color);
+  color: green;
   background: var(--background-color-transparent);
   width: 100px;
   height: inherit;
